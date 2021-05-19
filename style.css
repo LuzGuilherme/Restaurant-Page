@@ -1,4 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#welcome-text h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
 #nav-logo {
     width: 70px;
     height: 70px;
+}
+
+#welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#welcome-slide {
+    padding: 10px 10px 10px 10px;
+    width: 55%;
+}
+
+#welcome-text {
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.button {
+    background-color: rgb(236, 176, 65);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: transform .4s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgb(206, 154, 57);
+}
+
+.slide-img {
+    width: 400px;
+    height: auto;
 }
