@@ -2,9 +2,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 #welcome-text h1 {
     font-weight: bold;
     font-size: 70px;
+}
+
+#about h2 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#about h3 {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #nav-logo {
@@ -13,23 +31,24 @@
 }
 
 #welcome {
-    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 #welcome-slide {
     padding: 10px 10px 10px 10px;
-    width: 55%;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #welcome-text {
-    width: 40%;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    margin: auto;
+    margin:auto;
 }
 
 .button {
@@ -54,4 +73,27 @@
 .slide-img {
     width: 400px;
     height: auto;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#about-img-cont {
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin:auto;
+}
+
+.intro-title {
+    width: 800px;
+    padding: 10px 10px 10px 10px;
+    margin:auto;
 }
