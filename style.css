@@ -146,3 +146,36 @@ h4 {
     font-weight: bold;
     font-size: 20px;
 }
+
+#menu-foods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food {
+    background-color: gray;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-img {
+    margin: auto;
+}
+
+.food-plate-img {
+    width: 250px;
+    height: auto;
+}
+
+.food-text {
+    margin: auto;
+}
+
+.food-price {
+    margin: auto;
+}
