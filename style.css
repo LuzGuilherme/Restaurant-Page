@@ -36,6 +36,7 @@ h4 {
 }
 
 #welcome {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,6 +82,7 @@ h4 {
 }
 
 #about {
+    display: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -104,6 +106,7 @@ h4 {
 }
 
 #featured {
+    width: 100%;
     padding-bottom: 150px;
 }
 
@@ -116,7 +119,7 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -197,7 +200,7 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .chef-info {
